@@ -5,10 +5,12 @@ import DrawerNavigation from './navigation/DrawerNavigation';
 
 const Tab = createBottomTabNavigator();
 
-export default function App() {
+function App() {
   return (
     <NavigationContainer>
       <DrawerNavigation />
     </NavigationContainer>
   );
 }
+
+export default App;
